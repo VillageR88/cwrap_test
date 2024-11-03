@@ -1,0 +1,131 @@
+{
+  "head": {
+    "title": "New Candy Wrapper project",
+    "link": [
+      {
+        "rel": "shortcut icon",
+        "href": "favicon.ico",
+        "type": "image/x-icon"
+      },
+      {
+        "rel": "stylesheet",
+        "href": "https://fonts.googleapis.com/css2?family=Overpass:ital,wght@0,100..900;1,100..900&display=swap",
+        "type": ""
+      }
+    ],
+    "meta": [
+      {
+        "name": "viewport",
+        "content": "width=device-width, initial-scale=1.0"
+      },
+      {
+        "charset": "UTF-8"
+      },
+      {
+        "name": "description",
+        "content": "New Candy Wrapper project."
+      },
+      {
+        "name": "keywords",
+        "content": ""
+      }
+    ]
+  },
+  "fonts": [],
+  "classroom": [
+    {
+      "name": "circle",
+      "type": "class",
+      "style": "width: 48px; height: 48px; background-color: #262E38; display: flex; align-items: center; justify-content: center; border-radius: 50%; color: #969FAD; font-weight: 700;",
+      "mediaQueries": [
+        {
+          "query": "max-width: 640px",
+          "style": "width: 42px; height: 42px; font-size: 14px;"
+        }
+      ]
+    },
+    {
+      "name": "h1",
+      "type": "element",
+      "style": "color: #FFFFFF; font-size: 28px; margin: 0; font-weight: 700;",
+      "mediaQueries": [
+        {
+          "query": "max-width: 640px",
+          "style": "font-size: 24px;"
+        }
+      ]
+    },
+    {
+      "name": "p",
+      "type": "element",
+      "style": "margin: 0; color: #969FAD; line-height: 24px; font-size: 15px;",
+      "mediaQueries": [
+        {
+          "query": "max-width: 640px",
+          "style": "font-size: 14px;"
+        }
+      ]
+    }
+  ],
+  "element": "body",
+  "style": "background-color: #131518; min-height: 100dvh; margin: 0; padding: 24px; box-sizing: border-box; display: flex; justify-content: center; align-items: center; font-family: Overpass;",
+  "children": [
+    {
+      "element": "form",
+      "attributes": {
+        "action": "/success"
+      },
+      "style": "width: 412px; height: fit-content; background: linear-gradient(to bottom, #232A34, #181E27); border-radius: 30px; display: flex; flex-direction: column; padding: 32px 39px 32px 32px; box-sizing: border-box; align-items: center; text-align: center;",
+      "mediaQueries": [
+        {
+          "query": "max-width: 640px",
+          "style": "padding: 24px 24px 32px 24px;"
+        }
+      ],
+      "children": [
+        {
+          "element": "img",
+          "attributes": {
+            "src": "../static/images/illustration-thank-you.svg",
+            "height": "auto",
+            "width": "auto"
+          },
+          "style": "width: fit-content;"
+        },
+        {
+          "element": "div",
+          "style": "background-color: #262E38; margin-top: 32px; height: 32px; padding-inline: 32px; align-items: center; border-radius: 22px;",
+          "children": [
+            {
+              "element": "p",
+              "style": "color: #FC7614; display: flex; align-items: center; margin: 0; line-height: 32px;",
+              "text": "You selected cwrapGetParams[rating] out of 5"
+            }
+          ]
+        },
+        {
+          "element": "section",
+          "style": "display: flex; flex-direction: column; margin-top: 30px; gap: 15px;",
+          "mediaQueries": [
+            {
+              "query": "max-width: 640px",
+              "style": "margin-top: 16px;"
+            }
+          ],
+          "children": [
+            {
+              "element": "h1",
+              "style": "",
+              "text": "Thank you!"
+            },
+            {
+              "element": "p",
+              "style": "",
+              "text": "We appreciate you taking the time to give a rating. If you ever need more support, don’t hesitate to get in touch!"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
